@@ -8,10 +8,15 @@ While I don't make any demands, But　I think respecting copyright
 maybe is a basic morality.
 """
 from .kana import Kana
-from .method import Method
+from .method import *
 
 
 class Get:
+    """
+
+    """
+
+    '''仮名'''
     __kana = Kana()
     gojyuon_table = __kana.gojyuon_table
 
@@ -22,3 +27,6 @@ class Get:
 
     # 現代仮名（戦前の仮名はない, 清音のみ）
     kendai_hiragana_list = []
+
+    '''地理'''
+    todofuken = JapanCountries()
