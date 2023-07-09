@@ -25,7 +25,7 @@ class Kana:
     def __gojyuon_table(only_seion=True) -> list:
         """
             Returns:
-                [('', 'た', 'タ'), ('ti', 'ち', 'チ'), ('tu', 'つ', 'ツ'), ('te', 'て', 'テ'), ('to', 'と', 'ト')]
+                [('ta', 'た', 'タ'), ('ti', 'ち', 'チ'), ('tu', 'つ', 'ツ'), ('te', 'て', 'テ'), ('to', 'と', 'ト')]
         """
         table = []
         X = "akstnhmyrw"
@@ -42,6 +42,8 @@ class Kana:
                 row.append((x + y, h[p], k[p]))
                 p += 1
             table.append(row)
+
+        table.append([('n', 'ん', 'ン')])
 
         return table
 

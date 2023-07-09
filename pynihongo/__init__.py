@@ -30,3 +30,11 @@ class Get:
 
     '''地理'''
     todofuken = JapanCountries()
+
+
+gojyuon_table = Get.gojyuon_table
+hiragana_list = Get.hiragana_list
+katagana_list = Get.katagana_list
+romaji_list = Get.romaji_list
+kendai_hiragana_list = []
+todofuken = Get.todofuken
