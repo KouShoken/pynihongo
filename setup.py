@@ -21,7 +21,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     name='PyNihongo',
-    version='0.0.1dev2',
+    version='0.0.1dev3',
     author='Koushoken',
     author_email='kskjcx-dev@yahoo.co.jp',
     description='A Python package about japanese.',
